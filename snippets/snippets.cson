@@ -116,7 +116,7 @@
   'Vaadin Notification':
     'prefix': 'vaadin-notification'
     'body': """
-      <vaadin-notification opened="[[$1]]" duration="${2:4000}" position="${3|top-end,top-start,top-center,top-end,middle,bottom-start,bottom-center,bottom-end,bottom-stretch|}">
+      <vaadin-notification opened="[[$1]]" duration="${2:4000}" position="${3:top-end}">
         <template>$0</template>
       </vaadin-notification>
     """
